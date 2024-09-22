@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "serve": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://127.0.0.1:5010",
+      "commandLineArgs": "serve"
+    },
+    "build": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "commandLineArgs": "build"
+    }
+  }
+}

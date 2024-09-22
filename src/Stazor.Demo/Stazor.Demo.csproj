@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+        <InvariantGlobalization>true</InvariantGlobalization>
+
+        <!--Makes sure the current working directory is the project root-->
+        <RunWorkingDirectory Condition=" '$(RunWorkingDirectory)' == '' and '$(EnableDefaultRunWorkingDirectory)' != 'false' ">$(MSBuildProjectDirectory)</RunWorkingDirectory>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Stazor.Razor\Stazor.Razor.csproj" />
+      <ProjectReference Include="..\Stazor.Servers.AspNet\Stazor.Servers.AspNet.csproj" />
+      <ProjectReference Include="..\Stazor.StaticFiles\Stazor.StaticFiles.csproj" />
+      <ProjectReference Include="..\Stazor\Stazor.csproj" />
+    </ItemGroup>
+
+</Project>

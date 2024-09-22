@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor", "Stazor\Stazor.csproj", "{19F985DD-1624-4C13-B57B-165095E5212B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.Builder", "Stazor.Builder\Stazor.Builder.csproj", "{26DB632A-9CC2-43AE-B7C2-3A40CBE29FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.Demo", "Stazor.Demo\Stazor.Demo.csproj", "{46F5B415-A3CC-421B-9FEB-5C0C2CE2127D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.Core", "Stazor.Core\Stazor.Core.csproj", "{11A9B17C-1E7A-4600-9260-B7CA364B6CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.StaticFiles", "Stazor.StaticFiles\Stazor.StaticFiles.csproj", "{DC886576-C674-4C52-A19F-055F5CD7701B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{270E8FB2-8E0C-419C-88A7-F3C9885965E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{DC175B53-EA7C-439A-B0F5-9EBB59B11043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.Servers.AspNet", "Stazor.Servers.AspNet\Stazor.Servers.AspNet.csproj", "{5E53047D-B8D5-4DDA-8088-B5C1C1623B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stazor.Razor", "Stazor.Razor\Stazor.Razor.csproj", "{8DC6D1CE-1B0C-4802-8E15-81012689BD88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F985DD-1624-4C13-B57B-165095E5212B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F985DD-1624-4C13-B57B-165095E5212B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F985DD-1624-4C13-B57B-165095E5212B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F985DD-1624-4C13-B57B-165095E5212B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DB632A-9CC2-43AE-B7C2-3A40CBE29FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DB632A-9CC2-43AE-B7C2-3A40CBE29FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DB632A-9CC2-43AE-B7C2-3A40CBE29FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DB632A-9CC2-43AE-B7C2-3A40CBE29FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F5B415-A3CC-421B-9FEB-5C0C2CE2127D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F5B415-A3CC-421B-9FEB-5C0C2CE2127D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F5B415-A3CC-421B-9FEB-5C0C2CE2127D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F5B415-A3CC-421B-9FEB-5C0C2CE2127D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A9B17C-1E7A-4600-9260-B7CA364B6CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A9B17C-1E7A-4600-9260-B7CA364B6CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A9B17C-1E7A-4600-9260-B7CA364B6CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A9B17C-1E7A-4600-9260-B7CA364B6CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC886576-C674-4C52-A19F-055F5CD7701B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC886576-C674-4C52-A19F-055F5CD7701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC886576-C674-4C52-A19F-055F5CD7701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC886576-C674-4C52-A19F-055F5CD7701B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E53047D-B8D5-4DDA-8088-B5C1C1623B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E53047D-B8D5-4DDA-8088-B5C1C1623B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E53047D-B8D5-4DDA-8088-B5C1C1623B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E53047D-B8D5-4DDA-8088-B5C1C1623B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC6D1CE-1B0C-4802-8E15-81012689BD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC6D1CE-1B0C-4802-8E15-81012689BD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC6D1CE-1B0C-4802-8E15-81012689BD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC6D1CE-1B0C-4802-8E15-81012689BD88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC886576-C674-4C52-A19F-055F5CD7701B} = {270E8FB2-8E0C-419C-88A7-F3C9885965E3}
+		{5E53047D-B8D5-4DDA-8088-B5C1C1623B77} = {DC175B53-EA7C-439A-B0F5-9EBB59B11043}
+		{DC175B53-EA7C-439A-B0F5-9EBB59B11043} = {270E8FB2-8E0C-419C-88A7-F3C9885965E3}
+		{8DC6D1CE-1B0C-4802-8E15-81012689BD88} = {270E8FB2-8E0C-419C-88A7-F3C9885965E3}
+	EndGlobalSection
+EndGlobal
